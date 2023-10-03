@@ -13,7 +13,7 @@ This is a RESTful API built with Node.js, Express.js, and MongoDB. It can be use
 1. Clone the repo: [git clone](https://github.com/Chetan0000/Ecommerce-API.git)  `https://github.com/Chetan0000/Ecommerce-API.git`
 2. Install the dependencies: `npm install`
 3. Start the server: `npm start`
-4. Access the API in your browser: [here](https://ecommerce-api-2l2f.onrender.com/)  `https://ecommerce-api-2l2f.onrender.com/`
+4. Access the API in your browser: [here](https://ecommerce-api-cn7f.onrender.com/)  `https://ecommerce-api-cn7f.onrender.com/`
 
 ### Usage
 
