@@ -19,7 +19,9 @@ module.exports.renderPro = async(req, res) => {
 
 // function to add product to data base
 module.exports.create = async(req, res) => {
-    
+    if(req.body.name || req.body.quantity == null){
+        return res.send("No product to add");
+    }
     let D = [];
     let name = req.body.name;
     let quantity = req.body.quantity;
