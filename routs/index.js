@@ -6,10 +6,10 @@ const router = express.Router();
 const homeController = require('../controllers/home_controller');
 
 router.get('/',homeController.home);
-router.get('/product', homeController.renderPro);
-router.post('/product/create',homeController.create);
-router.get('/product/:id',homeController.destroy);
-router.get('/product/:id/update_quantity',homeController.update);
+router.get('/products', homeController.renderPro);
+router.post('/products/create',homeController.create);
+router.get('/products/:id',homeController.destroy);
+router.get('/products/:id/update_quantity',homeController.update);
 
 
 
