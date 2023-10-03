@@ -47,7 +47,7 @@ module.exports.create = async(req, res) => {
 // function to update quantity of the product
 module.exports.update = async(req, res) => {
     let id = req.params.id;
-    let num = req.query.qu;
+    let num = req.query.number;
     // console.log(id,num);
     try{
         let find = await Product.find({"product.id":id});
